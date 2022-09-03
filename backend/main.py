@@ -2,6 +2,7 @@ from PIL import Image
 from flask import Flask, request, jsonify
 
 from firebase_handler import write_humidity, write_temperature, fetch_humidity, fetch_temperature
+from model_prediction import add_item_to_refrigerator
 
 
 app = Flask(__name__)
@@ -15,9 +16,9 @@ def hello():
 @app.route('/item/image', methods=['POST'])
 def food_item_image():
     if request.method == 'POST':
-        file = request.files['image']
-        img = Image.open(file.stream)
-        return jsonify({'msg': 'success', 'size': [img.width, img.height]})
+        file = request.files['image'].read()
+        add_item_to_refrigerator(file)
+        return jsonify({'messsage': 'success'})
 
 @app.route('/refrigerator/metric', methods=['POST', 'GET'])
 def fridge_metrics():
