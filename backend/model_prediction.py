@@ -95,7 +95,7 @@ def classify_image(
 def add_item_to_refrigerator(image):
     prediction = classify_image(
             project="369326407674",
-            endpoint_id="1461831495453769728",
+            endpoint_id="4292343861256126464",
             location="us-central1",
             image=image
     )
@@ -112,7 +112,7 @@ if __name__ == '__main__':
     for i in range(1, 6):
         print(predict_image_classification_sample(
             project="369326407674",
-            endpoint_id="1461831495453769728",
+            endpoint_id="4292343861256126464",
             location="us-central1",
             filename=f"{file_path}/{i}.jpeg"
         ))
