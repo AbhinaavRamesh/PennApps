@@ -1,5 +1,7 @@
-from flask import Flask, request, jsonify
 from PIL import Image
+from flask import Flask, request, jsonify
+
+from firebase_handler import write_humidity, write_temperature, fetch_humidity, fetch_temperature
 
 
 app = Flask(__name__)
@@ -17,6 +19,21 @@ def food_item_image():
         img = Image.open(file.stream)
         return jsonify({'msg': 'success', 'size': [img.width, img.height]})
 
+@app.route('/refrigerator/metric', methods=['POST', 'GET'])
+def fridge_metrics():
+    if request.method == 'POST':
+        try:
+            data = request.json
+            temp = data.get('temperature')
+            if temp: write_temperature(temp)
+            humidity = data.get('humidity')
+            if humidity: write_humidity(humidity)
+        except Exception as e:
+            print(f'Exception occurred: {str(e)}')
+            return {'message': 'INTERNAL_SERVER_ERROR'}, 500
+        return {'message': 'Data saved successfully'}, 200
+    if request.method == 'GET':
+        return {'temperature': sorted(fetch_temperature(), key=lambda x: x[0]), 'humidity': sorted(fetch_humidity(), key=lambda x: x[0])}, 200
 
 
 if __name__ == '__main__':
