@@ -1,0 +1,520 @@
+id,name,category,serving_weight,serving_desc,emissions_per_serving,emissions_category_letter,emissions_category_description,carbon_label_url
+4340d1ab-5215-4767-b98a-cda73f529372,bagel,Bakery,85.0,1 bagel,1.21499,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+e56cfadb-88ea-4ff3-92fb-abd27b51fe22,baguette,Bakery,220.0,one medium baguette,1.30088,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+71131c53-ec60-4b21-aa11-8d5015f49496,bread,Bakery,80.0,two medium slices,1.21499,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+32af413c-6c44-4f4d-9c76-594d7271975a,bread crumbs,Bakery,112.0,one cup,1.21499,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+1220a81a-f6cb-438b-a8a6-dfa12aeb311d,bread roll,Bakery,60.0,one medium roll,1.21499,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+28b7afac-63df-4327-b969-e60a90a01246,brown bread,Bakery,80.0,two medium slices,1.1016,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+f30a3b8d-1cca-46c8-98f2-7262b5cfd902,brown bread roll,Bakery,60.0,one medium roll,1.20951,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+7bb5870e-1cc3-4034-8a89-f534977bafe4,cake,Bakery,120.0,one piece,3.06425,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+2b1b381b-b630-4c97-abb2-949e2f39cc0e,chocolate cake,Bakery,120.0,one slice,3.66809,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+79272a1e-4dec-4375-8c0d-6f479143de18,crepe,Bakery,80.0,one crepe,0.71148,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+8a4fdd50-95ae-476b-b7d6-e84b067493de,crumpet,Bakery,50.0,1 crumpet,1.21499,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+a0d47d34-8b53-4cd3-9031-2671f4905a34,doughnut,Bakery,75.0,one doughnut,6.5793,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+8f567871-5113-4052-9419-ad718657619f,fruit cake,Bakery,120.0,one slice,3.06425,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+28c370f1-14e5-4a27-a605-8c0223605125,muffin,Bakery,130.0,medium muffin,6.5793,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+86300681-06f8-4ed4-8452-d375cf8e828a,pancake,Bakery,50.0,medium pancake,0.71148,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+2dbc810c-f31f-4226-8634-96ef5a903476,pastry,Bakery,47.0,one pastry shell,6.5793,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+d8c3bae3-6f01-4451-a601-0914a301bae3,pitta bread,Bakery,60.0,one medium pitta,1.21499,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c7b866df-91d1-4978-be5c-ee3dd3761d1c,plain naan bread,Bakery,140.0,one naan,1.21499,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3f60bc56-3b98-4b0e-ae2d-9eefbce422bb,rye bread,Bakery,80.0,two medium slices,1.07067,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+a1d4602d-6139-4dcd-983e-a42362154ab6,scones,Bakery,70.0,one scone,3.06425,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+6445e7ea-4702-4362-9107-d4951e9e1cc9,sponge cake,Bakery,120.0,one slice,3.06425,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+b237306b-6c15-41a5-b6df-83829a38c82e,tortilla wrap,Bakery,65.0,one wrap,1.08099,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c2b18aa4-e7a5-4ebf-b85f-7c7f5f85cc57,waffle,Bakery,75.0,medium waffle,0.71148,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+ffe6b893-0ab5-4722-840a-93788dcd271f,white bread,Bakery,80.0,two medium slices,1.08104,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+8a1f0ebf-8c2c-462d-b229-5d12feac50ee,white bread roll,Bakery,60.0,one medium roll,1.12139,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+787de133-3f3d-4d88-9a1d-f122b9499f75,biscuits,Biscuits and confectionery,45.0,three biscuits,1.30333,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+6b5fc6be-e0ef-488c-84fc-86f1bdced619,chocolate,Biscuits and confectionery,30.0,six squares,5.76333,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+b4fb22b8-4428-4f9c-a700-6f8814403965,chocolate biscuit,Biscuits and confectionery,45.0,three biscuits,2.7,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+b7ac31fb-902d-41a4-913c-0e233fa6601a,chocolate chips,Biscuits and confectionery,10.0,fifteen chocolate chips,5.76333,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+bcfa02f6-e1b3-4442-b969-0ff5b8c1314b,chocolate snack bar,Biscuits and confectionery,32.0,one bar,5.06965,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+63c80416-01fb-4796-b409-b6e3ae1eafca,crackers,Biscuits and confectionery,24.0,three crackers,1.155,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+8cbf0267-8b91-41b9-aac2-1ed1e083b194,flapjacks,Biscuits and confectionery,32.0,one flapjack,6.84001,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+6e37a3de-5aed-4883-8bf3-99aec3c2c7d8,fudge,Biscuits and confectionery,34.0,one piece,2.41213,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+7fe3a156-01a1-4c06-ae06-9a47fadf1866,gluten-free biscuit,Biscuits and confectionery,45.0,three biscuits,3.3,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+bde51815-5276-4edc-b181-3d6172ef4e92,liquorice,Biscuits and confectionery,21.0,three pieces,2.41213,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+b0b377db-d872-4538-8a94-8351ad405ee4,marshmallows,Biscuits and confectionery,35.0,five large marshmallows,2.41213,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+23c02498-4c40-4a19-b485-4c853b0584de,milk-based sweets,Biscuits and confectionery,10.0,one piece,4.21,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+f889f0ff-fe49-47e2-a45c-d1a11bad9b4e,mints,Biscuits and confectionery,15.0,three pieces,2.41213,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+64faf31b-fa37-4b0a-84be-a86184b45373,muesli snack bar,Biscuits and confectionery,32.0,one bar,6.84001,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+2606b88b-000f-4dad-a6c4-e44d1a001606,sweets,Biscuits and confectionery,10.0,one piece,2.41213,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+a34ceb36-4898-4afb-af99-43d8f42c37e4,toffee,Biscuits and confectionery,21.0,three pieces,2.41213,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+dc71a5ec-2bc8-4b66-9ae6-4884c9ec510a,allspice,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3bd29a16-41be-4878-9976-7ecbfa644856,almond extract,Cupboard,5.0,1 teaspoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+b585ae15-90f8-4e53-a94c-386228c49b82,basil,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+12cd4e21-aa96-47b2-b47f-c24a394cd896,bay leaves,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+e66a6086-830d-4008-9b21-2a3c19ec1cc7,beet molasses,Cupboard,20.0,one tablespoon,0.28759,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+11a4dbb4-f9b1-481c-8bea-0fdc1f28a404,beet sugar,Cupboard,4.0,1 teaspoon,0.39078,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+12d05403-c574-497d-8acd-4edba6e0002e,black pepper,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+44773add-8688-4e2e-9f01-af0d97cda9d6,breakfast cereal,Cupboard,45.0,three handfuls,2.4014,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+5727c5c3-963e-4e4b-8571-72debdeb4d1e,brown sugar,Cupboard,4.0,1 teaspoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+2ca23a6c-4e3f-4f83-87b5-285f4c5c4965,cacao nibs,Cupboard,24.0,handful,2.655,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+b467dd6c-5168-4ef0-88a0-0acbd26bd206,cacao powder,Cupboard,5.0,one teaspoon,4.44,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+c8371cf7-4a4d-4bc4-b3e0-2f5418b13f61,cassava starch,Cupboard,4.0,one teaspoon,0.594,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+901a1ed4-e26f-4660-8b5d-fda1c5e33f25,cayenne pepper,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+23858dcb-ee9d-4591-9b9c-3f0c8e067362,chilli flakes,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+cd63bb4f-f402-4b2d-846e-185aefc172ab,chilli powder,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+873b6f17-5981-4616-aa87-99be1f691af5,chives,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+1d9fe573-2f12-4cef-9a74-41c065319f58,cinnamon,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3c2d4adc-b399-49f5-8b8a-7fcfc8657738,cloves,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+35ad195b-2a26-426c-b783-2e2f35f3444a,coconut sugar,Cupboard,4.0,1 teaspoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+cb922278-c573-4bcc-9e1f-a3d042d6b632,coffee beans,Cupboard,10.0,five beans,4.5,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+764d847b-0b90-4d9c-a10d-940d772d4651,coriander,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+a87b952c-cf63-424b-a5b7-655289b63b1b,cornflour,Cupboard,4.0,one teaspoon,0.89116,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+45064812-f615-48f5-8cb2-6f875b06dbc6,cumin,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+939af743-562c-4fda-b33b-9ccb49dd945c,dill,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+57a04b04-422e-4043-a760-8dca2bb7e243,five spice,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+b16fc3a8-f40c-423f-9c00-6c1a00a2063a,flour,Cupboard,8.0,one tablespoon,0.89116,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+aff55f88-595a-4e67-b9cd-40a5037752c1,food colouring,Cupboard,5.0,one teaspoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+be667e03-0f30-4f6a-bb69-0d65163714e4,garam masala,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+1777b50b-6eea-4478-b1e2-d831a853aed1,granola,Cupboard,45.0,handful,4.01636,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+b4c5bebf-8ef0-49a5-b8dc-e7dc190d4cd5,herbs and spices,Cupboard,20.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+8364c643-3102-4326-abf4-ae8c599a5375,hot chocolate powder,Cupboard,2.0,teaspoon,4.44,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+bbab28d1-8575-4e00-8f1e-f84779635f6f,icing - to roll,Cupboard,60.0,,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+f6761f82-b102-4857-adb7-3f8bc7562f9e,icing sugar,Cupboard,8.0,one tablespoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+706014b2-ac0b-472b-aa2e-09e6952ccee2,lard,Cupboard,12.0,1 tablespoon,6.11647,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+588081a2-ca17-48ef-9923-75ff42186649,marzipan,Cupboard,60.0,,1.6573,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+c916a5d0-db8f-488e-92b1-3a081048fd27,mint,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+021426dc-e34a-40cc-9124-dc8c084f9aed,miso paste,Cupboard,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+87dbfe9a-24a4-4488-a116-3a64963f57ec,molasses,Cupboard,20.0,one tablespoon,0.4876,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+363706c6-a864-4b67-9e3c-3491e3933e3f,muesli,Cupboard,45.0,handful,4.01636,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+6c7efa02-5002-42bd-8270-96ce2382c589,non-wholegrain breakfast cereal,Cupboard,45.0,handful,4.00626,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+bcb8fe3a-aa05-45c5-946b-97aa08f599bd,nutmeg,Cupboard,3.0,teaspoon ground,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+92fb2438-d600-4629-a93d-f2e82759e0e7,oat flakes,Cupboard,45.0,handful,0.79,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+9966d070-c792-4321-9798-72c6da601324,oregano,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+e92a1c52-06c5-4367-b3de-e5a28c04dccb,paprika,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+a2566202-85f1-4af8-b06d-a594b7bc21c2,parsley,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+245810f5-6a86-4ba6-ab6a-d615f459a5d8,peppermint extract,Cupboard,5.0,1 teaspoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+6922fdeb-edbe-46ab-8273-aa1cd7870b5b,plain flour,Cupboard,8.0,one tablespoon,0.89116,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+b623785f-6ab6-4c80-81a3-ea8edc44eabd,porridge,Cupboard,45.0,,3.95813,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+fc86f477-c351-4377-9c1d-a103a7032f69,rosemary,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c7af039c-0b9f-413a-8b4e-b67c26d9b9c2,rye flour,Cupboard,8.0,one tablespoon,0.70889,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+96f51d89-f4c5-496f-8d75-b4ec56a71188,sage,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+8644e7b1-feab-41f6-8cde-946e641d1771,salt,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+e5f86015-c0d5-4591-b61a-ea24f1a6338e,self-raising flour,Cupboard,8.0,one tablespoon,0.89116,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+d571d28d-2869-457a-ab53-332c1cac5af4,sugar,Cupboard,4.0,1 teaspoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+1397747d-eaa5-4011-8d72-738b30ccb091,tapioca starch,Cupboard,5.0,one teaspoon,0.594,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+84daaa2e-ee91-41cb-b9f4-9221c89c605c,thyme,Cupboard,24.0,handful,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+8ac5ca35-b5f5-40e8-a493-6e6ad0de1635,turmeric,Cupboard,3.0,teaspoon,1.1325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+80ec882d-ecfc-4d4e-9263-17f25089cce4,vanilla,Cupboard,5.0,one teaspoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+60ed9a9c-9797-4816-9343-57b41128f95f,vanilla extract,Cupboard,5.0,1 teaspoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+f462d7b2-6b73-4c88-9851-a8842215061e,vegetable fat,Cupboard,12.0,1 tablespoon,2.75119,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+ece931d3-fbae-4a02-8482-4950a83b462c,white sugar,Cupboard,4.0,1 teaspoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+9322e880-564e-4c9c-ad0b-545a0c5657d1,wholegrain breakfast cereal,Cupboard,45.0,three handfuls,2.34606,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+b171c28a-a144-4d3e-b603-86014067278e,almond milk,Dairy and alternatives,200.0,small glass,0.565,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+79496507-ce24-4a5d-ae28-5543bde37bc4,brie,Dairy and alternatives,30.0,About the size of two thumbs,7.41667,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+1a293bb0-905b-459d-8690-65cff6d6ec43,buffalo milk,Dairy and alternatives,200.0,small glass,3.38,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+dd69b458-c587-4826-871a-691d56434bdd,butter,Dairy and alternatives,14.0,one tablespoon,9.75789,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+0add44b9-5ae5-48c6-b66e-0bd20d08282a,buttermilk,Dairy and alternatives,200.0,small glass,1.1,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+71380443-e38f-49df-b8dc-51fc5a87b8fc,camembert,Dairy and alternatives,30.0,About the size of two thumbs,7.11065,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+f1b4ef28-eafa-4271-914e-0bac2b041850,cheddar,Dairy and alternatives,30.0,About the size of two thumbs,7.41667,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+90a55529-964b-462a-acf4-72b58161a216,cheese,Dairy and alternatives,30.0,About the size of two thumbs,8.78695,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+ccec1292-cd3a-4748-8a43-6467b835704d,clotted cream,Dairy and alternatives,150.0,half tub,3.72404,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+b102556e-3354-4434-92e0-5ecbecc6269c,concentrated milk,Dairy and alternatives,200.0,small glass,3.1,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+02603cfb-bd02-468d-9c43-f52391d4b4a3,cottage cheese,Dairy and alternatives,30.0,About the size of two thumbs,2.445,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+33d05760-dd2f-4758-9315-be562b8ea818,cream cheese,Dairy and alternatives,30.0,About the size of two thumbs,6.44,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+8f11d23a-037f-4ffe-be9c-b23fb7fe684e,double cream,Dairy and alternatives,150.0,half tub,3.72404,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+fca2f822-9b54-421e-9ebc-ed86ebdc7bef,edam,Dairy and alternatives,30.0,About the size of two thumbs,7.11065,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+3a345659-da4b-4104-9487-29a639539f14,emmental,Dairy and alternatives,30.0,About the size of two thumbs,7.11065,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+39ed84ff-a260-4720-abae-139fb7258cab,feta,Dairy and alternatives,30.0,About the size of two thumbs,7.11065,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+5f52144d-ec5c-4e42-a5b5-47be28ea8a47,goats cheese,Dairy and alternatives,30.0,About the size of two thumbs,7.11065,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+72d79de7-ecb5-4ef1-9a8e-75e1b0ca6980,goats milk,Dairy and alternatives,200.0,small glass,2.67,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+c7cbcee8-85f0-40d9-a6a4-d665cdf577e4,gouda,Dairy and alternatives,30.0,About the size of two thumbs,7.41667,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+7ee3ae1d-06f5-4802-aa52-2bd7eeb4a7b6,ice cream,Dairy and alternatives,120.0,two scoops,3.80167,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+063dfd4e-b4ff-4ed2-a041-b7c2b21e9043,margarine,Dairy and alternatives,14.0,one tablespoon,3.08086,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+808bb6b7-f679-4b18-b13d-9a50a8e80439,mascarpone,Dairy and alternatives,30.0,About the size of two thumbs,7.41667,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+16fe0967-c90b-441b-95de-145d7d85a1f2,milk,Dairy and alternatives,200.0,small glass,1.76166,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+35ca179a-f655-4429-bf42-4644f27adcae,mozzarella,Dairy and alternatives,30.0,About the size of two thumbs,6.44,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+b97836f0-deab-4a44-8c53-3f905554ec9f,oat milk,Dairy and alternatives,200.0,small glass,0.356564667,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+d7e60b54-f05f-4d35-bf17-f586245cd57f,oatly oat drink,Dairy and alternatives,200.0,small glass,0.31833,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c2a79019-9390-4c1e-84d2-07e5d5ad2151,paneer,Dairy and alternatives,30.0,About the size of two thumbs,7.11065,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+4ce9743f-af67-4408-a2d9-eb6c0d962037,parmesan,Dairy and alternatives,30.0,About the size of two thumbs,7.11065,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+e4fdbf23-e522-4090-9d15-aa1a453708d1,plant-based cream,Dairy and alternatives,150.0,half tub,1.8725,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+8cf2dedb-612e-4c0f-979e-cad3cfca8924,plant-based milk,Dairy and alternatives,200.0,small glass,0.54509,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+e6c285e4-3a66-4748-9ffa-823af4c8093a,prato,Dairy and alternatives,30.0,About the size of two thumbs,7.41667,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+15daabe3-0846-47a0-9e1b-039ba034cea8,quark,Dairy and alternatives,30.0,About the size of two thumbs,2.445,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+e2e9c3be-8e9f-44ec-89c3-50d39c00a74a,sheeps milk,Dairy and alternatives,200.0,small glass,8.4,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+594a1340-5476-4fcf-94ef-dd037592b00d,single cream,Dairy and alternatives,150.0,half tub,3.72404,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+c4bd7473-436d-43e9-a844-5443ca5c198d,sour cream,Dairy and alternatives,60.0,About 2 tablespoons,2.5,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+2902eff8-c1f9-400a-8929-742d41a9747b,soy milk,Dairy and alternatives,200.0,small glass,0.78202,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c6320219-c0a2-4166-bb04-9ba51a204776,stilton,Dairy and alternatives,30.0,About the size of two thumbs,7.41667,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+279fce33-87fd-4609-9996-39f7b823d845,vegan cheese,Dairy and alternatives,30.0,About the size of two thumbs,2.718843917,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+b605c431-540a-4d33-9f22-4fd3231135b9,whipping cream,Dairy and alternatives,150.0,half tub,3.72404,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+00273dd8-a04e-4337-903e-05b7553bf84f,yogurt,Dairy and alternatives,120.0,About 4 tablespoons,2.20007,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+fad98dd1-d2dc-440a-bfb7-97eabd3503a7,americano,Drinks,120.0,Small Americano,0.7057,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+96e67bec-1e66-441b-b1cc-4c69093ae814,apple juice,Drinks,150.0,small glass,2.44,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+e9083d93-25da-48d1-82e2-56a5411fcb3c,beer,Drinks,400.0,one glass,0.767825,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+d050cb9b-ae88-4ef0-9e12-03bcac37e037,beer bottle,Drinks,500.0,one bottle,0.876,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+aa37416f-a684-44fa-b40a-c8ac9608a588,beer can,Drinks,330.0,one can,0.65965,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+232bd29d-90b7-45e3-a40f-dc94932dfa3a,black instant coffee,Drinks,400.0,one mug,0.7057,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+94753421-dab1-430b-9da5-d816ba8b5697,black tea,Drinks,400.0,one mug,0.60516,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c5e25aa6-a6d2-4ff6-89b1-122d6cbdfd69,bottled water,Drinks,500.0,one bottle,0.31522,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c1a2a715-d26e-444d-9bb1-878d70d0065d,brandy,Drinks,50.0,two 25ml shots,2.3203,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+62c49db6-b311-45e6-997f-210f622bc1c6,cappuccino,Drinks,140.0,Small Cappuccino,1.6127,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+bb8162ef-0d62-4ee6-921b-f89163c6e752,cider,Drinks,400.0,one glass,0.767825,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+fdbb8076-6178-40fd-b418-ed33c2559d7c,cider bottle,Drinks,500.0,one bottle,0.876,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+447a66ca-1253-4b63-9b90-1177e085d341,cider can,Drinks,330.0,one can,0.65965,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3f5e71be-fbe4-458b-a497-318b259d65bb,espresso,Drinks,30.0,One shot of espresso,0.7057,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+1ae094db-6a46-418b-a7df-66c0b112a655,flat white,Drinks,160.0,Small Flat White,1.6127,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c9709a83-2a26-43f3-af34-b78cfe8ff908,fruit cordial,Drinks,50.0,cordial for medium glass,1.9271,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+13bc8847-4a9a-4511-bd61-dd0747f63e80,fruit juice,Drinks,150.0,small glass,1.71099,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+19b76067-de1f-47d0-a6c8-739ae3c77d50,fruit tea,Drinks,400.0,one mug,0.60516,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+d34df20d-dffb-49be-af7d-4dd5b16d5eff,grapefruit juice,Drinks,150.0,small glass,2.06,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+76259e9b-40f0-4a40-85ef-e50a1b017f3f,green tea,Drinks,400.0,one mug,0.60516,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+92a52ea7-f6cb-404b-a5dc-24333b4e6190,herbal tea,Drinks,400.0,one mug,0.60516,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+1b98bb01-1340-4c7f-a07e-5fb35f12f7bd,hot chocolate,Drinks,400.0,one mug,1.406645,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+a4860905-dc2e-4ae3-9379-f87c16ef5c59,hot chocolate with milk,Drinks,400.0,one mug,2.72729,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+6df331f6-ef8c-4a93-ae09-984fa152d014,hot chocolate with water,Drinks,400.0,one mug,0.086,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+6ba2133e-ff82-4730-a7ec-67b6c9690817,instant coffee,Drinks,400.0,one mug,1.406645,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+fc65c9e2-c47e-4a58-8192-e634f0eb90b7,instant coffee with milk,Drinks,400.0,one mug,1.6127,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+fd5b9c4d-f98e-4094-a896-eedbcf04238c,jasmin tea,Drinks,400.0,one mug,0.60516,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3b0a86d7-175d-4e02-bb67-d3cf07411e74,latte,Drinks,240.0,Small Latte,1.6127,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+95a9af6e-a824-4d27-91ba-ddf90a6ad4b3,lemon juice,Drinks,150.0,small glass,0.6216,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+0d371a9b-a8a3-4145-b87c-4455a8919c8d,lime juice,Drinks,150.0,small glass,0.6216,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+bebac01a-0a07-46eb-8f78-d3df90e4486e,mocha,Drinks,120.0,Small Mocha,1.6127,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+996232d7-eb94-4240-b839-f1a16964bf2b,orange juice,Drinks,150.0,small glass,2.0,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+13196093-71b7-44cf-a428-2b2d4e6c0af9,other spirits,Drinks,50.0,two 25ml shots,2.3203,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+dc68de89-f3c9-42f0-b654-6036308b1dff,pineapple juice,Drinks,150.0,small glass,2.52273,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+c8402501-499a-49ad-b216-915e1627659a,rum,Drinks,50.0,two 25ml shots,2.3203,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+a1c2dd52-f39e-4916-b37e-3466c6a2563b,sherry,Drinks,150.0,medium glass,1.3688,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+b8eb1b4b-7a31-4de2-b004-771f6a22c1f5,soft drink,Drinks,330.0,one can,0.62195,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+e1a9332e-ff37-4550-b3cc-5d61c7a7037a,tequila,Drinks,50.0,two 25ml shots,2.3203,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+0282fdb7-e9a4-4844-8be0-9dee0671cf0f,vodka,Drinks,50.0,Two 25ml shots,2.3203,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+ee30d1ff-22a0-42c4-b482-e6eaa4a1e0e7,whiskey,Drinks,50.0,two 25ml shots,2.3203,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+5a6bbcb8-8b68-4673-8dcc-b17890fa7bee,white tea,Drinks,400.0,one mug,0.63116,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+eb91222b-c544-40b0-b55c-9d81d93f8ff0,wine,Drinks,150.0,medium glass,1.3688,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+cb53795a-447d-4536-ac8a-2d78b7785389,eggs,Eggs,60.0,one egg,4.50569,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+8dd90b7c-d5a1-4843-9651-08bd4ea1b2d4,anchovies,Fish and seafood,80.0,four tablespoons,4.22019,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+99e5c5d3-dcf4-48c7-8394-31e8729c7df8,caviar,Fish and seafood,30.0,three tablespoons,5.2864,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+52bf54cd-505d-4947-a769-608bafb7ac80,clams,Fish and seafood,73.0,five clams,3.03643,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+11e4dbcb-8eae-4f25-97f0-4a8d6721b79e,cockles,Fish and seafood,125.0,five cockles,3.03643,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+29844c19-7a81-4997-881c-648710a08893,cod,Fish and seafood,170.0,The size of half to a whole hand,3.21375,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+2b5fdfea-e65e-4b55-b873-eff07c347851,coley,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+79e709dc-1915-414d-bb8b-c7b8ebd20e73,crab,Fish and seafood,65.0,one medium crab,17.74555,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+51dbf5cc-2968-425c-86d6-2ab3bafb08a2,crayfish,Fish and seafood,65.0,,17.74555,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+7c64bcf2-b1b6-44a1-9096-a44992f3b2ef,eel,Fish and seafood,113.0,,4.22019,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+c118c295-41d1-4d30-85b3-f462e492f269,fish fingers,Fish and seafood,90.0,three fish fingers,3.7465,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+3a271d5e-5aca-464f-906e-515fd7d50314,fish sticks,Fish and seafood,51.0,three sticks,1.90558,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+07834fe0-2c0c-4357-a1a4-49bcca53a056,flatfish,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+4fd68a44-16bd-4bb9-ac8f-c35735b3e8f7,flounder,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+bc62f9e4-7dc4-4475-bdbf-cac47ac50eb7,haddock,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+b3f3caf1-8caf-476f-acc6-c812d2b044b0,hake,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+a54134b9-106b-42ce-ab61-c64d05c69296,halibut,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+c751bec4-43cd-48da-92cb-d0ad0759626f,herring,Fish and seafood,170.0,The size of half to a whole hand,1.586,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+76a60367-67b1-4211-b623-e852babc7e0d,hoki,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+620f182d-099f-4238-82ee-8d0b9b0bd81e,kipper,Fish and seafood,170.0,The size of half to a whole hand,4.22019,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+9ab05bc2-81c7-402e-9650-1302c02fcf14,krill,Fish and seafood,20.0,ten krill,17.74555,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+30929689-08e9-48f3-b58c-75e0798d4882,lemon sole,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+8b8f3e14-4f77-40a1-b2b8-49d79de0dd31,lobster,Fish and seafood,295.0,medium lobster,17.74555,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+b48b6950-ffd3-4985-aa3b-3f2e9ef89d55,mackerel,Fish and seafood,170.0,The size of half to a whole hand,0.895,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+aec19c67-4820-4863-b710-c934731ee6ee,mixed fish,Fish and seafood,170.0,The size of half to a whole hand,6.16943,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+438f0aef-f4f3-458c-b432-ae2cc7372da8,molluscs,Fish and seafood,75.0,,3.03643,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+f31f207d-98ba-45a6-992b-ec1c63cab863,mussels,Fish and seafood,80.0,five mussels,3.03643,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+1c12c66c-095b-475b-abea-a1b99bf17dd7,octopus,Fish and seafood,57.0,,3.03643,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+01bee3bf-278f-4252-93d4-0454b586a2fc,oysters,Fish and seafood,70.0,five oysters,3.03643,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+f6f54f31-0dfb-4c7b-9bee-006af79cae51,pangasius,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+3686ca05-6c22-4bea-aedc-b08c31e96914,plaice,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+bb9dda17-70da-4418-ac64-3e2a87f15feb,pollock,Fish and seafood,170.0,The size of half to a whole hand,3.21375,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+f782a840-0ba0-475f-a8db-5e4b99ec8a08,prawn,Fish and seafood,90.0,six prawns,17.74555,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+9cffd9aa-bb78-473d-88a3-bde854e18099,salmon,Fish and seafood,170.0,The size of half to a whole hand,4.78714,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+221b819a-b782-4d1f-b16b-7eb6784fb9cc,sardines,Fish and seafood,80.0,About 4 tablespoons,4.22019,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+eebd4188-79bc-431a-b0b4-ff0211784c27,scallops,Fish and seafood,120.0,four scallops,3.03643,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+6ebef655-bdaa-4b73-9c8f-9199bb735762,scampi,Fish and seafood,80.0,About 4 tablespoons,17.74555,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+6a386dba-48e8-4063-bbb1-e4c21531eedb,sea bass,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+0228e46a-f8ba-41b9-8165-5e70113ac95a,seabass,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+55f7f4c6-9af0-4c18-860f-2a3ba222e723,seaweed,Fish and seafood,5.0,,3.03643,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+d9f50922-c8ed-4d5a-ac40-1638185e317c,shrimp,Fish and seafood,80.0,About 4 tablespoons,17.74555,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+bc3f022a-dd18-4bcc-8104-9b4e9ae7f78b,skate,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+e82b4f8f-8196-4342-8b62-900d1b85f95a,smoked salmon,Fish and seafood,170.0,The size of half to a whole hand,4.78714,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+e00fe642-69ba-40e3-af2a-2a73fa04de4e,squid,Fish and seafood,272.0,one squid,3.03643,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+7e23810a-7370-4c2b-95f7-285b60c16486,trout,Fish and seafood,170.0,The size of half to a whole hand,4.22019,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+6ca77ced-9d7b-43a4-aab2-0bf25a4f96af,tuna,Fish and seafood,170.0,tuna fillet,10.1648,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+0dfad101-fc95-4d5f-a1df-eb6704e48814,whitebait,Fish and seafood,80.0,About 4 tablespoons,4.22019,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+e686877e-fcd2-4ea8-b5df-a0527df72582,whiting,Fish and seafood,170.0,The size of half to a whole hand,4.36243,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+13a3d0d6-7f52-45d4-850a-352f0428e524,apples,Fruit,80.0,one apple,0.9,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+ef63679f-a255-422d-896a-262ff99e2c16,apricot,Fruit,140.0,4 apricots,0.43,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+6c30af79-3024-4a64-a452-40e031805364,avocados,Fruit,170.0,one avocado,2.4,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+f2c8d70f-2fd5-4434-908e-19f60d118637,banana chips,Fruit,30.0,handful,4.4,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+5dd15f98-123b-4143-b57d-98fb73d5a147,bananas,Fruit,120.0,one banana,1.3,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+e7f0fb89-d388-4f9d-9823-c487c73c70ff,berries,Fruit,25.0,handful,2.86,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+dd158d22-6cc3-42a9-aa1a-a96580554e99,blackberries,Fruit,20.0,handful,2.86,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+b66dfae6-245e-422a-8c36-c72b7b84f180,blueberries,Fruit,15.0,handful,2.86,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+71d961af-bd21-47ed-aa2b-7b3797f6ba26,bottled tomatoes,Fruit,80.0,Three heaped serving spoons,2.3286,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+6c079854-5eb0-4bf1-b44c-029655805907,canned mandarins,Fruit,200.0,half a can,2.5,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+47a1bf1f-8841-48e3-8921-c0af49662fdf,canned mango,Fruit,200.0,half a can,4.4,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+102522c4-7a51-4cd6-8a21-0af217d6d4d4,canned nectarines,Fruit,200.0,half a can,2.9,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+ec5ed58e-5704-4a54-abb9-b118242d8108,canned peaches,Fruit,200.0,half a can,2.9,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+963e5169-9c98-45c7-81dd-318b5cbd2e59,canned pears,Fruit,200.0,half a can,4.06,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+d2914973-24af-4cf3-8310-5ad9993aa3e9,canned pineapples,Fruit,200.0,half a can,3.6,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+b9a27da9-6c3f-45f7-908b-77bea4633a78,canned plums,Fruit,200.0,half a can,5.49,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+c9e53d22-65aa-4900-9032-4e15618be6b8,canned tomatoes,Fruit,200.0,half a can,1.9586,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+ead373f4-6c5e-4e3c-813a-6ca59516803f,capers,Fruit,20.0,Average weight of 5 capers,0.46313,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+10d0d719-090a-4e52-b0fd-448d6130b024,cherries,Fruit,32.0,"One handful, six cherries",2.86,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+a5e18354-6843-41ef-b132-7d960ad7216e,coconut,Fruit,85.0,one cup,0.79197,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+e57139a5-3e48-4095-9495-6b00c207cc75,cranberries,Fruit,20.0,handful,2.86,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+df6f0332-6d02-4d41-a60d-b27eeb76ef9a,currants,Fruit,25.0,handful,2.1,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+10a7ceaa-cc8d-483b-a36e-7441a00eff4b,date,Fruit,48.0,two dates,2.1,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+62e017b8-3d7e-484c-991b-5b3452413007,dried apples,Fruit,80.0,one apple,6.98,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+d887d34e-a9fc-440a-ac7f-3eb82a13dc46,dried banana,Fruit,120.0,one banana,4.4,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+085755b8-5029-4e2e-a524-799f72bad861,dried mango,Fruit,30.0,handful,8.7,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+956f3f9b-e710-40db-8da5-73950ebfa742,dried pears,Fruit,180.0,one pear,6.956,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+738d3cb7-3152-45fd-9cbd-b36fd2fec57d,dried pineapples,Fruit,80.0,1 large pineapple slice,4.9,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+0165fbec-45ab-4227-a4e9-11fdc8eee04e,dried plums,Fruit,65.0,one plum,4.44,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+e7210fba-ce92-451b-a9b6-6f040c50e511,frozen apples,Fruit,80.0,one apple,2.12,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+f74de1bb-9279-43a2-b2ef-667dff6987bd,frozen blackberries,Fruit,20.0,handful,2.52,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+ba955607-f95b-420f-9406-936c71bf5526,frozen blueberries,Fruit,15.0,handful,2.52,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+67f983d3-42cb-45a1-b588-b913b22ccd2b,frozen cherries,Fruit,32.0,"One handful, six cherries",2.52,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+d9a8c479-ce30-4645-b314-beefb736e066,frozen cranberries,Fruit,20.0,handful,2.52,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+4306ad13-d6a3-46b9-8467-8753c9927f0b,frozen mango,Fruit,80.0,two slices,3.8,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+5906c0eb-0598-4cc1-9beb-ad89a3257cd1,frozen nectarines,Fruit,150.0,one nectarine,2.5,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+8c4065e5-033d-46d8-9a83-083fc0194cad,frozen peaches,Fruit,150.0,one peach,2.5,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+276a5d76-6d6d-4025-8e7f-0e873e4a6bbd,frozen raspberries,Fruit,50.0,handful,2.3,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+9ed3f0ef-9a1b-418e-8d5d-1d356b3840a7,frozen strawberries,Fruit,80.0,handful,2.3335,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+afaf9506-deef-4a1a-9811-1d7f93467285,grapefruits,Fruit,246.0,one grapefruit,0.8,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+37288818-4a6d-4a6a-a4c1-a75301dc487f,grapes,Fruit,40.0,"handful, eight grapes",2.3,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+d89dab12-c9c3-466c-9888-589554227bce,kiwi,Fruit,76.0,one kiwi fruit,0.62093,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+562780f3-2ce6-4fe7-8df1-abd0aa3cbb8c,lemons,Fruit,100.0,one lemon,1.9,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+05f7b228-3247-4ac7-9439-7ed22c1688a5,lime,Fruit,45.0,one lime,1.9,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+ab831db5-659f-4fd2-b953-fe38e1b78ddc,mandarins,Fruit,130.0,one mandarin,1.1,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+766f6782-68ac-430f-8bc9-0a08e7662fda,mango,Fruit,80.0,two slices,4.4,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+f07ff2d3-a7d2-47b0-92c3-050ac3198393,melons,Fruit,80.0,One 5cm slice of melon,0.9,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+447fd50b-ba6e-4873-81fc-1abd749bb2a5,nectarines,Fruit,150.0,one nectarine,1.9,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+87773200-c683-493f-8bed-8bc40b1ab62f,olives,Fruit,40.0,eight olives,0.46313,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3a94218a-565d-494b-941a-dcc0cc09177f,oranges,Fruit,130.0,one orange,1.9,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+91586cce-60b3-4ab7-96b3-b0fb6608585f,papaya,Fruit,120.0,three slices,4.4,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+ec74e59f-c10d-4432-8aa8-f7232c54cace,passata,Fruit,200.0,half a can,1.9586,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+b641b68e-b3a0-4b01-8f35-1c8c0aaa2b76,peaches,Fruit,150.0,one peach,1.9,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+dc688b68-c249-48f0-8095-e1af5889f300,pears,Fruit,180.0,one pear,1.028,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+4aa1d8ba-6c66-452f-a4b5-967aae83f0be,pineapples,Fruit,80.0,1 large pineapple slice,1.7,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+3145a049-54da-4e39-b022-e971015af87c,plums,Fruit,65.0,one plum,1.125,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+bd7b3065-e969-4204-a1fe-fc3d322bfedc,raisins,Fruit,25.0,handful,2.1,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+b793648f-a5ed-4d7b-a027-1f9147ada4e1,raspberries,Fruit,50.0,handful,2.569,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+0446bcfd-d3ce-434b-9d97-7ad1ed222e6c,strawberries,Fruit,80.0,handful,2.2432,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+ef812e06-dc06-4b5e-bef1-8e4c4280383a,tomatoes,Fruit,80.0,One medium tomato or seven cherry tomatoes,2.9052,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+0e2a7ae0-7705-4c92-9b8d-7eb2e6e23876,barley,"Grains, pulses, and legumes",80.0,Three heaped serving spoons,1.11833,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+14334e16-b998-4a75-9579-a68624622877,basmati rice,"Grains, pulses, and legumes",65.0,two handfuls,1.35377,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+1a38ada7-b727-4c92-ae3c-7a41ada4e726,black beans,"Grains, pulses, and legumes",80.0,Three heaped serving spoons,0.85195,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+2e9c327b-3d74-4b0b-8e6e-6e0692b8e3e4,brown rice,"Grains, pulses, and legumes",65.0,two handfuls,1.35377,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+ad803700-8188-4fdb-88a8-e0a05f8cbf4f,buckwheat,"Grains, pulses, and legumes",80.0,Three heaped serving spoons,0.71846,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+a2aa6cc3-028f-41e9-ae91-0538f9f35086,bulgar,"Grains, pulses, and legumes",120.0,About 6 tablespoons,0.76008,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+1f5087e8-6fb0-48e4-9481-a4e655ddc458,chickpeas,"Grains, pulses, and legumes",80.0,Three heaped serving spoons,0.85195,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+282ccd0e-ad0f-4d72-81ce-e22ccef21543,corn,"Grains, pulses, and legumes",120.0,About 6 tablespoons,0.405,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3b31543a-7794-40bb-bf2d-f211cf0f21e1,couscous,"Grains, pulses, and legumes",120.0,About 6 tablespoons,2.44036,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+8600f45a-8b6d-4df8-a875-f5e0a2db6839,faba beans,"Grains, pulses, and legumes",80.0,Three heaped serving spoons,0.85195,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+4011256b-446b-404f-bc30-e97e5c77a489,frozen pulses,"Grains, pulses, and legumes",80.0,Three heaped serving spoons,1.83445,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+714998d4-494b-4801-ab01-6d096d1d87b6,haricot beans,"Grains, pulses, and legumes",80.0,Three heaped serving spoons,0.85195,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+bdbbbda0-1aac-4ad3-99a1-30b7c8d96a14,jasmin rice,"Grains, pulses, and legumes",65.0,two handfuls,1.35377,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+b7e7bb7c-72d9-44a7-a132-d27fda69c10c,kidney beans,"Grains, pulses, and legumes",80.0,Three heaped serving spoons,0.85195,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+a3f0791f-404c-4546-84d2-2f0d5cef7aa2,lentils,"Grains, pulses, and legumes",120.0,About 6 tablespoons,0.67038,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+09f334f0-7e8c-4a57-9854-66d5b45f5c97,long-grain rice,"Grains, pulses, and legumes",65.0,two handfuls,1.35377,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c705b40b-73fe-4645-bba3-f37aa555fb71,macaroni,"Grains, pulses, and legumes",75.0,two handfuls,1.37431,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+47b5466a-4c61-4d4f-a6e6-eb7d88f11883,maize,"Grains, pulses, and legumes",120.0,About 6 tablespoons,0.51,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+5a688cc9-e501-4fd5-a373-f042489b414d,mixed grain,"Grains, pulses, and legumes",65.0,two handfuls,0.76008,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+6656a718-60c7-49fc-ae97-4369fae24048,noodles,"Grains, pulses, and legumes",75.0,two handfuls,1.37431,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+23e26ff8-afac-4e46-b592-2f82fcfaf53d,oats,"Grains, pulses, and legumes",120.0,About 6 tablespoons,0.785,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+787b93f1-0b2a-48fb-9030-290343ef08bf,other pulses,"Grains, pulses, and legumes",120.0,About 6 tablespoons,3.3,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+32181b02-a2fb-4d79-99a9-7c7050a5d0ea,pasta,"Grains, pulses, and legumes",75.0,two handfuls,1.37431,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+cad9abc7-1309-46fa-92de-4f0f7791dace,polenta,"Grains, pulses, and legumes",120.0,About 6 tablespoons,0.76008,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+82e8024e-411b-4ce8-a953-65bcd19a80b5,quinoa,"Grains, pulses, and legumes",85.0,half cup,0.81581,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+d33b1417-66c7-45c7-ab58-1c2b9abaa9be,rice,"Grains, pulses, and legumes",65.0,two handfuls,1.35377,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c0d72f22-6511-48f6-b671-f5534ed3092b,soybeans,"Grains, pulses, and legumes",80.0,Three heaped serving spoons,2.0,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+0a961140-92aa-42ba-b3c5-598d09cf60fb,spaghetti,"Grains, pulses, and legumes",75.0,one bunch,1.37431,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+40c218b5-1956-4dc6-8fdf-944797988482,sushi rice,"Grains, pulses, and legumes",65.0,two handfuls,1.35377,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c2cce169-cbdf-40a9-88cb-de6e87d549e3,tagliatelle,"Grains, pulses, and legumes",75.0,two handfuls,1.37431,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+7049cf6b-a13a-4689-877c-a7f39c16e0ee,wheat,"Grains, pulses, and legumes",80.0,Three heaped serving spoons,0.71846,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3d6ce293-23e5-413a-bc24-a587ce83f137,white rice,"Grains, pulses, and legumes",65.0,two handfuls,1.35377,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+a16e8adc-37a9-4631-8076-8dd36b0cb2c1,wholemeal pasta,"Grains, pulses, and legumes",75.0,two handfuls,1.37431,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3ed9ef5b-dee8-4439-bf5e-d24d9132b7d1,bacon,Meat and alternatives,80.0,two rashers,6.62826,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+7d5c0b5b-bfe0-43a3-8455-bb868557bc83,beef,Meat and alternatives,160.0,About half the size of your hand,43.33033,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+db5f5495-38bf-4ddd-8c6a-103c8d0c5b19,chicken,Meat and alternatives,150.0,one breast,4.70605,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+93988a85-48c9-4151-82b4-ef7629974e2b,cocktail sausage,Meat and alternatives,60.0,four cocktail sausages,6.62826,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+0cb7f4c4-27e5-4d2f-a571-f17603aa7ded,duck,Meat and alternatives,160.0,About half the size of your hand,5.05438,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+9fec4dc0-c438-46a9-aafe-f9dcefb241d0,falafel,Meat and alternatives,40.0,two falafel,2.51,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+629b6bc2-2299-4e69-9840-3733bb63fb41,gammon,Meat and alternatives,160.0,About half the size of your hand,6.62826,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+dd99a428-adbf-4a5c-89c0-d90d581db920,goat,Meat and alternatives,160.0,About half the size of your hand,35.71429,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+11753274-ce62-4ead-bbd0-e8d145d009a2,goose,Meat and alternatives,160.0,About half the size of your hand,5.05438,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+1344ab0d-b61f-4edd-84fe-5ac3b8010240,guinea fowl,Meat and alternatives,160.0,About half the size of your hand,5.05438,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+d0517c4a-fa41-46d9-bbaf-29c8839b5977,ham,Meat and alternatives,30.0,two slices,6.62826,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+240823c8-fb26-497e-ae72-dee30a9d038b,lamb,Meat and alternatives,160.0,About half the size of your hand,20.82537,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+b67235ef-1918-4d9a-ac3d-5bddee2aee6d,meatless,Meat and alternatives,80.0,,2.29,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+6672d050-7350-4857-835d-550ff6d43b56,pancetta,Meat and alternatives,30.0,two slices,6.62826,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+7c4eff2a-5c35-4931-92c9-54826ce9bce9,pork,Meat and alternatives,160.0,About half the size of your hand,6.62826,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+ff022517-6d27-4f5a-8eb1-da7ba2e5c162,quorn,Meat and alternatives,100.0,,2.4,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+c7ba29ec-4e67-4dcb-a6cd-a4d439509b64,quorn classic burger,Meat and alternatives,90.0,,2.55,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+3f146ba0-8536-413d-b329-3c5f54638b5a,quorn crispy nuggets,Meat and alternatives,80.0,,1.96667,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+3011f401-eab5-47cf-b9c1-bb216862061d,quorn mince,Meat and alternatives,75.0,,1.69091,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+0e8ee235-2956-4c3e-ab89-a83f0586eabc,quorn pieces,Meat and alternatives,75.0,,1.70909,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+0c367f21-2c1d-4617-b1b7-354d6e4e35a8,quorn sausages,Meat and alternatives,84.0,,1.7,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+d93f9d84-edb8-4c37-917e-784e76237956,quorn vegan nuggets,Meat and alternatives,70.0,,2.55,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+28eb1358-a925-4eed-afcf-57e640871bb0,quorn vegan pieces,Meat and alternatives,70.0,,1.6,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+8265f8df-7dac-4178-90a0-83feb6ef89d8,rabbit,Meat and alternatives,160.0,About half the size of your hand,11.01925,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+54f86186-c4e4-4cd9-b730-1700512a032d,steak,Meat and alternatives,225.0,One 8oz steak,43.33033,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+1d729284-5724-4a70-a369-39edf756cd96,tempeh,Meat and alternatives,80.0,,1.093,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+fafb0c87-52f2-4590-aa47-aa7ed4c1ee36,tofu,Meat and alternatives,80.0,,1.85622,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+f9c3a038-963c-4677-bc74-1891e4f065ba,turkey,Meat and alternatives,160.0,About half the size of your hand,6.4475,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+68c3428c-2941-4da2-b403-314cc00f258e,valess,Meat and alternatives,80.0,,5.00817,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+051f85b4-e731-4e2a-a7b4-fa71b1a095d4,veal,Meat and alternatives,160.0,About half the size of your hand,18.93775,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+0cdc924d-555f-4ec8-9b22-bd641c35ee80,vegetable patty,Meat and alternatives,75.0,one burger,2.95,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+008147bb-59e1-4a77-9767-5205bceddcdc,venison,Meat and alternatives,160.0,About half the size of your hand,20.98641,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+197f2a91-d0dc-49f0-934a-cea331604940,almonds,Nuts and seeds,24.0,handful,2.856,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+c8155676-7f95-4567-b3ad-5ad16e29f1ef,cashews,Nuts and seeds,24.0,handful,2.09143,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+6b71b670-6adc-4039-986f-7026affdba18,chestnuts,Nuts and seeds,24.0,handful,1.46,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+a3ad673c-6f2f-4d2a-bdba-d8cc559e0b17,chia seeds,Nuts and seeds,11.0,one tablespoon,4.2,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+2507540c-e2ba-4110-a582-3ca51cf4c5c5,chocolate covered hazelnuts,Nuts and seeds,24.0,handful,3.43,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+e7746cdf-4cf7-4517-ab7c-4ca689f329c5,fennel seeds,Nuts and seeds,9.0,one tablespoon,4.2,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+8496153b-5b1f-4b3a-9a92-acba578fd88b,mixed nuts,Nuts and seeds,24.0,handful,2.05586,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+ed486972-e1a7-4df0-8d4f-0e7a05002c77,mixed seeds,Nuts and seeds,9.0,one tablespoon,2.97837,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+5423f287-5085-4f98-8018-a9da63c480a8,mustard seeds,Nuts and seeds,9.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+5a05531e-b640-401f-8fe0-942b604a1819,peanut,Nuts and seeds,24.0,handful,1.36,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+1894fbb2-9563-4f42-a70e-c441589a1ddc,pecans,Nuts and seeds,20.0,About the amount that fits in your palm,2.129,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+c4eaa123-06b4-472a-8d4d-05823d989d13,pistachio,Nuts and seeds,24.0,handful,2.33,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+bbf8b2f3-47a5-4b53-b427-6293832dc781,pumpkin seeds,Nuts and seeds,9.0,one tablespoon,4.2,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+5f62e2cc-ab5e-4ce8-af94-c86264e6ee14,sesame seeds,Nuts and seeds,8.0,one tablespoon,4.2,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+c01e7742-9a29-41d2-bfbc-20c610375a9d,sunflower seeds,Nuts and seeds,9.0,one tablespoon,0.84844,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+18f07e9f-f5c1-4dd7-ba26-5bd4a23ec93d,walnut,Nuts and seeds,24.0,handful,2.129,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+14d83048-9abb-436e-b338-bfa750ceca75,coconut oil,Oils,14.0,1 tablespoon oil,2.41472,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+ab33bb77-1a40-434d-8569-785aaf83ddef,corn oil,Oils,14.0,1 tablespoon oil,1.19933,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+ddab98d3-091d-4fa4-97d3-ea39b0e4b332,cottonseed oil,Oils,14.0,1 tablespoon oil,2.14,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+fb3b24fa-0bca-4d02-a26b-ada3945d9532,groundnut oil,Oils,14.0,1 tablespoon oil,0.9,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+8b4592e4-abe2-40de-9dd1-ade43576df8e,mustard oil,Oils,14.0,1 tablespoon oil,2.9,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+328be313-38ca-4283-b83c-ae433a31f9cb,olive oil,Oils,14.0,1 tablespoon oil,2.52582,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+b05844ba-cecd-4222-9f5f-71495ec148bd,palm oil,Oils,14.0,1 tablespoon oil,6.11647,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+f10776da-7aeb-45c9-9de2-b2ceb40d90a2,peanut oil,Oils,14.0,1 tablespoon oil,3.63727,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+064a8c3c-5dbe-47dc-a5d1-3f65e2fd05cf,rapeseed oil,Oils,14.0,1 tablespoon oil,2.4044,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+463f2f7a-674d-4073-8b19-53c95f20316a,sesame oil,Oils,14.0,1 tablespoon oil,4.2,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+aa040867-ce8e-4d7d-98f6-f2968e99023d,soybean oil,Oils,14.0,1 tablespoon oil,1.58282,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+54fe5aa0-cfa1-4df1-8a94-5d20e427be56,sunflower oil,Oils,14.0,1 tablespoon oil,2.54467,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+59f4919f-b10b-4dad-933e-c89c0b00d48a,vegetable oil,Oils,14.0,1 tablespoon oil,3.2,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+2c024637-7f18-41fb-8e78-5fce0587abbb,potatoes,Potatoes,220.0,one baked potato,1.273,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+68708837-521e-4ab6-9d7b-fa05f0fdfd1a,sweet potato,Potatoes,115.0,one sweet potato,1.273,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+a4a4d9ab-c9d6-48be-ac63-9213d8813d35,baked beans,Processed food,200.0,half can,2.4674,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+1e2cc218-5e53-43c6-a5ed-8e5eeb58b5bb,chips,Processed food,80.0,,3.822,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+6adc2e9c-a445-45c5-bae6-48c0a40d366f,corn crisps,Processed food,80.0,One bag,1.325,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+bc9231ee-4437-4ee2-aea4-7685a9256fa4,crisps,Processed food,25.0,small bag,4.41,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+56693923-0b17-496a-a7fb-def6a8a1210b,custard,Processed food,56.0,four tablespoons,2.45427,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+4ba3f182-d91b-4472-bfcd-09f75b60145d,fruit salad,Processed food,80.0,,2.69687,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+3dcb7336-9bba-439f-9d95-697e693efe8e,pizza,Processed food,250.0,one small/medium sized pizza,3.83425,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+b8078571-e1bd-4f7c-b229-79d6dd979efa,tomato paste,Processed food,20.0,one tablespoon,4.7486,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+a384ea81-17e3-475a-a813-c4f88b2e47bc,apple sauce,Sauces and dressings,16.0,one tablespoon,2.14587,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+e6764c10-60d5-4939-95dd-e4dbbfbad4e3,barbeque sauce,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+02726b98-73cd-400a-9188-c262fe2ea079,beef gravy,Sauces and dressings,240.0,one cup,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+ae4700fb-f2b6-4439-ab87-99a6792c6c6f,beef stock,Sauces and dressings,240.0,one cup,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+4bf17b68-5392-4b06-8746-61d1830d7c02,bolognese sauce,Sauces and dressings,175.0,Half a jar,2.43244,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+b5453089-8f4d-4a48-be04-ba25dc0f6a2b,chicken gravy,Sauces and dressings,240.0,one cup,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+471fd4d3-83cd-49ee-98be-6f119e94a401,chicken stock,Sauces and dressings,240.0,one cup,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3876da10-0f45-40b5-be55-b71696bbc272,chutney,Sauces and dressings,17.0,one tablespoon,1.5402,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+f29e2f67-ff6c-445a-908c-c102c8da0b14,fish sauce,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+765be6fc-39da-41b1-95ca-45d3708f206b,hoisin sauce,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+66b98d85-a53c-4f97-b26c-886cd27a1632,hummus,Sauces and dressings,15.0,one tablespoon,0.85195,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+f505ffdf-3a0b-4418-a064-07b94f74b1e7,lamb stock,Sauces and dressings,240.0,one cup,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+198b9833-e019-488a-8006-bbb9eabb27c1,marmite,Sauces and dressings,15.0,one tablespoon,1.66042,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+c0d02267-5fd2-4893-97c7-537b69f11f92,mirin,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c8e23379-a4d9-4537-8a57-0d37b0c448dc,mustard,Sauces and dressings,15.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+4b33605d-cd34-4a26-8815-e01f4a835412,oyster sauce,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+a8922c09-3b14-45d9-99ab-827d94eeac6e,pesto,Sauces and dressings,16.0,one tablespoon,2.52582,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+551e0849-cf5d-495d-a5cf-9372a3f08cbb,relish,Sauces and dressings,17.0,one tablespoon,1.5402,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+eff589e2-97f6-4ce6-862e-246ab9a8e1f1,salad cream,Sauces and dressings,15.0,one tablespoon,4.02956,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+689a27be-40be-4fca-ac90-3aa2cdb473cc,salad dressing,Sauces and dressings,15.0,one tablespoon,4.60695,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+8880dc12-d943-4957-acb0-1a0c5965b025,soy sauce,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+97135b07-0b1b-4abc-911a-5fd2076ddb03,stir fry sauce,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+83046277-9b6c-4699-81f1-49aff4915047,sweet chilli sauce,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+7f47e299-b741-4fe2-9480-625e4f48918d,tabasco sauce,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+f1bcf78d-95d6-41ca-b21f-c0f6c6afd143,tahini,Sauces and dressings,15.0,one tablespoon,0.85195,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+92437bc5-e1bb-466e-8734-b41ef7d48f7f,tamari,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+9d57f24b-e39c-4c29-838c-ffdd194a1cee,tomato ketchup,Sauces and dressings,17.0,one tablespoon,1.5402,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+5b781808-229d-4a30-8a20-3e0b11f40cfb,tomato sauce,Sauces and dressings,175.0,Half a jar,2.43244,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+00477bc3-8e7b-45a6-ab47-6e034de3a777,vegetable gravy,Sauces and dressings,240.0,one cup,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+7983c6c3-1f69-4c2b-9d8a-ef6032c4cd88,vegetable stock,Sauces and dressings,240.0,one cup,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+0c13eae0-e7b4-4a68-8a02-5d372f97ae29,vinegar,Sauces and dressings,15.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+68307369-f67c-45c4-99fc-c497ad23b8cd,worcestershire sauce,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+13018a70-8d1b-4adf-9eb0-7e61c8fd1854,chocolate spread,"Spreads, jams, and honeys",20.0,one tablespoon,4.38825,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+2b629b57-101a-4085-b7d3-b83ff8db5b42,golden syrup,"Spreads, jams, and honeys",20.0,one tablespoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+2a2100ff-b0cf-49df-b18f-a16fc6e06716,hazelnut paste,"Spreads, jams, and honeys",20.0,one tablespoon,1.26646,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+8730c845-9863-4e9b-90f7-98105fa38637,hazelnut spread,"Spreads, jams, and honeys",20.0,one tablespoon,2.71,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+076350d1-ccf2-46ff-84c2-910219511659,honey,"Spreads, jams, and honeys",20.0,one tablespoon,1.6573,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+4ca8de75-e19a-4f34-ac7a-04e832af51bc,jam,"Spreads, jams, and honeys",20.0,one tablespoon,2.14587,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+16bd236f-c2bf-45a8-affb-1ac3ffc81031,maple syrup,"Spreads, jams, and honeys",20.0,one tablespoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+e3d2b530-a817-40ec-bd2e-f3fbc1bb960d,marmalade,"Spreads, jams, and honeys",20.0,one tablespoon,2.14587,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+d4820d26-9ae2-4b76-81e5-8da5c76453a5,peanut butter,"Spreads, jams, and honeys",16.0,one tablespoon,2.10667,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+c73bf5ec-d79b-4efd-836c-437010bfe2a8,treacle,"Spreads, jams, and honeys",20.0,one tablespoon,0.65599,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+5a3398da-d7af-4959-a03f-7e62503b3bc4,artichoke,Vegetables,80.0,,0.3384,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+ab4dc10f-64d0-4b6b-a99d-0ca26e274a4a,asparagus,Vegetables,80.0,Three heaped serving spoons,7.032,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+59ded4ee-c54e-4519-bf21-e177fe0111b2,aubergine,Vegetables,150.0,one serving,3.095,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+1d61321a-aa6e-4e74-a0ad-087064813b6f,beetroot,Vegetables,113.0,one beetroot,1.136,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+1e691887-a1b9-4686-89da-f68f9bd21927,broccoli,Vegetables,80.0,Two large broccoli spears (or 8 small florets),1.0808,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3f9261a4-90e4-464e-ae7b-b73b4ec1b408,brussels sprouts,Vegetables,80.0,Three heaped serving spoons,0.75,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+852f6b2b-e419-4be8-a3cb-7dfd13070893,cabbage,Vegetables,80.0,Three heaped serving spoons,0.622,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+9fafe410-f849-45d5-b22d-e3225ae59402,canned asparagus,Vegetables,200.0,half a can,4.184,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+614f7210-d36e-411e-8e79-37f18518f5fe,canned carrots,Vegetables,200.0,half a can,1.926,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+579a49dc-5b93-4d9c-8b1b-d140b51b5408,canned green beans,Vegetables,200.0,half a can,1.5316,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+4625249c-2c40-4bdf-8be7-c78237e933df,canned spinach,Vegetables,200.0,half a can,1.787,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+2e511fd6-6ae5-4a6b-a61b-69a31f45c4aa,canned sweetcorn,Vegetables,200.0,half a can,2.605,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+674f7518-1b90-4223-a662-b94027c0cff5,carrot,Vegetables,80.0,Three heaped serving spoons,1.1328,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+940e0d4b-d64b-4808-8b3e-bcea0a058717,cauliflower,Vegetables,80.0,Three heaped serving spoons,0.9708,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+acbf7fb2-c76e-4fed-8ab7-f824e17f518b,cauliflower - pre-cut,Vegetables,80.0,Three heaped serving spoons,2.0208,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+ac6af654-eb2e-4ed8-bf19-c99f70e0c50f,celery,Vegetables,50.0,one stalk,0.844,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+ec4237e1-35f9-4c7f-9bdc-9d68da31f842,chilli pepper,Vegetables,15.0,"Small, fresh chilli pepper",2.0192,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+31a8d76b-21c6-43f9-abb1-ed651605bf39,corn on the cob,Vegetables,80.0,Three heaped serving spoons,1.5756,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+f15652ba-9933-44b8-806b-4b4794131650,courgette,Vegetables,80.0,Three heaped serving spoons,0.8606,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+5f32dc5d-fb9f-47a4-afa0-7ac1ff68d8bb,cucumber,Vegetables,80.0,5cm piece of cucumber,1.928,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+9d5e368d-d3a3-4fd1-88b6-90cf77376205,dried and canned peas,Vegetables,200.0,half a can,2.324,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+c95914a3-816a-48fc-b3d5-a648d2abd4c4,dried peas (shelled),Vegetables,80.0,Three heaped serving spoons,2.388,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+77a09dd9-7319-4b26-a0e2-c9b28b3d248c,frozen asparagus,Vegetables,80.0,Three heaped serving spoons,3.044,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+c18bf43c-47d6-4168-8cbc-b01f291bdb67,frozen brussels sprouts,Vegetables,80.0,Three heaped serving spoons,1.875,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+54214399-0e9e-4567-82f8-ad967f9f7016,frozen carrots,Vegetables,80.0,Three heaped serving spoons,2.443,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+e6c460b3-fd4d-49ba-a48f-885679157c94,frozen cauliflower,Vegetables,80.0,Three heaped serving spoons,2.2708,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+b450aca9-e6cf-455a-8275-77740ccec4bf,frozen green beans,Vegetables,80.0,Three heaped serving spoons,1.6846,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+0e102ba3-6e68-4a4e-afaa-204dab59a796,frozen onion,Vegetables,80.0,Three heaped serving spoons,2.308,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+8d2f8687-0ba4-47ea-9b38-332b379fe55f,frozen peas,Vegetables,80.0,Three heaped serving spoons,2.508,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+2ce9cd4c-f5fe-4493-adb2-4f973191451d,frozen spinach,Vegetables,80.0,Three heaped serving spoons,1.571,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+4dee9300-16a3-47db-a7b5-a9d6b7e2c2c6,frozen sweetcorn,Vegetables,80.0,Three heaped serving spoons,2.5241,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+0ba61d58-72ae-4e0e-b466-7c47c12d0372,garlic,Vegetables,3.0,one clove,0.45235,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+789fe3b3-3451-4e2e-83b3-8a515facf7b4,ginger,Vegetables,7.0,One thumb or a tablespoon of chopped ginger,0.45235,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+ccf32c22-fb73-46a2-a888-247276400391,green beans,Vegetables,80.0,Three heaped serving spoons,5.6684,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+8180856d-0b24-4700-905a-02f87adc65f6,green peppers,Vegetables,80.0,Three heaped serving spoons,2.0192,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+af23a9ec-284a-44da-9283-8c51cb990ea1,jalepeno pepper,Vegetables,15.0,"Small, fresh chilli pepper",2.0192,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+54b30d3b-84e3-4566-9414-414dd175e9a4,kale,Vegetables,198.0,one bunch,1.6093,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+8498e46e-04c3-4718-b74c-79c6612aa015,leek,Vegetables,80.0,,1.0512,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+47dc91e2-f81d-43c0-9681-8cd02d271674,lettuce,Vegetables,80.0,Three heaped serving spoons,1.6093,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+0a775a75-3aa4-474b-8cfc-4a71d022d65b,mushrooms,Vegetables,80.0,Three heaped serving spoons,1.40454,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+b8270521-5a1e-4c69-9ebf-692a9b8b3f57,onion,Vegetables,160.0,1 onion,1.0512,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+aaefcbd5-6a6a-4a88-951a-718f3d5de45c,packaged sweetcorn,Vegetables,80.0,Three heaped serving spoons,2.4064,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+a092944e-3e87-4e4f-9f26-fe64277bb60c,parsnips,Vegetables,80.0,Three heaped serving spoons,0.67763,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+11444693-21a3-43cf-b309-239c466040de,peas,Vegetables,80.0,Three heaped serving spoons,4.228,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+0204f8e8-1b29-464f-af62-ac363e50035a,peppers,Vegetables,80.0,Three heaped serving spoons,2.0192,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+2ccb20af-1026-438e-b254-4fc5ce2ddc19,pickled beetroot,Vegetables,113.0,one beetroot,3.608,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+90f4a8d3-d34d-44e5-b5b9-b32161bef57e,pickled cabbage,Vegetables,80.0,Three heaped serving spoons,2.569,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+d6a1b89c-3ab4-4cfb-9f45-7a7be7e6fcee,pickled cucumber,Vegetables,80.0,,4.074,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+12061d46-1d1e-4fa2-9c90-82d80e23c9a0,pickled onion,Vegetables,80.0,,2.5428,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+b7c32e54-267d-435f-b258-a1f1461e46c2,pickled peppers,Vegetables,80.0,,3.8396,C,Medium,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+C.png
+a8aaa6e6-1931-4c26-a096-c6ce212ef5ff,pre-chopped carrots,Vegetables,80.0,Three heaped serving spoons,2.161,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+bbdd9ef2-6585-4d0e-bd9f-7fdc4b67b783,pre-cut cabbage,Vegetables,80.0,Three heaped serving spoons,1.372,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+09ef5221-bcce-4961-a1eb-3babb2a58ccb,pre-cut lettuce,Vegetables,80.0,Three heaped serving spoons,2.0634,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+c01ad792-94a7-4474-bae4-2508fccbdbe5,red onion,Vegetables,120.0,one red onion,1.0512,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+52a5968a-d656-4f21-a117-f65facf119a6,red peppers,Vegetables,80.0,Three heaped serving spoons,2.0192,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+61adbb38-f0af-46e3-9c62-dbce7cfa6bc3,rhubarb,Vegetables,133.0,one stick,0.844,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+e28506af-13fd-406f-959b-9316ccc1fad1,rocket,Vegetables,25.0,handful,1.6093,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+c6fbc007-743d-4501-a728-9e7c8321ba08,salad leaves,Vegetables,198.0,one bunch,1.6093,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+677a2cdc-f52b-42a9-882a-d1972ec9f80c,shallot,Vegetables,40.0,two shallots,1.0512,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+9e4641f7-3f99-42f5-aab2-fb3c8177822c,shelled and canned peas,Vegetables,200.0,half a can,2.476,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+2f45ec99-e4c3-4e40-bf05-f00dfce5e054,spinach,Vegetables,80.0,Three heaped serving spoons,1.4566,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+5980d36b-dd33-4209-be14-f5bff93dc70b,split and canned peas,Vegetables,200.0,half a can,2.324,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+861a4735-8e14-4c41-b213-3f1cd18d8797,spring onion,Vegetables,45.0,three spring onions,1.0512,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+3c889586-09fc-46c8-b4af-7bff32d7ac20,squash,Vegetables,140.0,one cup,1.162,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+9103339f-ebd0-404d-bbd6-3d833bba703c,swedes,Vegetables,80.0,Three heaped serving spoons,0.67763,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+07093ffc-7e90-4a06-a47d-e06af01b8296,turnips,Vegetables,80.0,Three heaped serving spoons,0.67763,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+bb23c63e-79ee-4ffe-9a4d-3086636e877e,unshelled peas,Vegetables,80.0,Three heaped serving spoons,3.936,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+f9d75e83-6544-46ad-bdf5-65f23141e4a0,vegetables,Vegetables,80.0,,2.038,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+d0bb3d24-f983-4d6d-b8b2-be21fb4400c1,watercress,Vegetables,25.0,handful,1.6093,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+0dbc5a18-0a72-46e2-a51a-041087ff4a68,new potato,Potatoes,180.0,three new potatoes,1.273,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+6c6eab47-6824-436b-92ea-59bc6092f084,plant-based yogurt,Dairy and alternatives,120.0,About 4 tablespoons,0.7333566667,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+453acf09-cb82-466a-be34-8369f52e305f,vegan chocolate,Biscuits and confectionery,30.0,six squares,1.92111,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+4c736af2-ef91-42fb-8c7f-f3e23b9dcaa3,chilli paste,Cupboard,1.082048893,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+45c80dca-ebf2-484a-882c-fde8d957f426,garlic clove,Vegetables,3.0,one clove,0.45235,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+94c116c6-ca12-4c1e-bf69-9e9353e013aa,salsa,Sauces and dressings,175.0,Half a jar,2.43244,B,Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+B.png
+3d49f3ea-a878-4547-b2e7-345284f4e281,sriracha,Sauces and dressings,16.0,one tablespoon,0.22176,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+98745cce-ca06-4b7c-a8ff-9cf8f645da54,Coleslaw,Sauces and dressings,14.0,one tablespoon,4.02956,D,High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+D.png
+5cb0c669-e3f5-4ca6-8f20-79bf1f420b98,fruit pie,Bakery,120.0,one slice,0.80962,A,Very Low,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+A.png
+43bdb415-c471-44b2-b7c5-9636e48d4db3,pork sausage,Meat and alternatives,84.0,one sausage,6.62826,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
+295ebd65-370b-4098-8ca1-81019f86a580,cheesecake,Bakery,120.0,,5.48242,E,Very High,https://myemissions-assets.s3.eu-west-2.amazonaws.com/labels/cloud+E.png
