@@ -84,7 +84,7 @@ def fetchCarbonEquivalence(food_name: str):
     refrigerator_dict={ el.id: el.to_dict() for el in fetch_refrigerator()}
     for it in refrigerator_dict:
         if refrigerator_dict[it]["food_id"]==food_id:
-            offset_days=offsetDaysCurrent(it)
+            offset_days=offsetCurrent(it)
             if expiration_dayspan+offset_days>0:
                 expiredFlag=False
                 daysToExpiry=int(expiration_dayspan+offset_days)
