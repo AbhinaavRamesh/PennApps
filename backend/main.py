@@ -119,7 +119,7 @@ def populateGraphs_FridgeMetrics():
         temp_values=[i[1] for i in temp_values]
         power_ls=disp_Power(temp_values)
 
-        return {'timels':time_ls,'templs':temp_values,'powerls':power_ls},200
+        return {'graphls':[[a,b,c] for a,b,c in zip(time_ls,temp_values,power_ls)]},200
 
 @app.route('/refrigerator/carbonEquivalence', methods=['POST'])
 def fridge_metrics():
