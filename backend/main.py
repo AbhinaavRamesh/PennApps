@@ -1,4 +1,6 @@
-from PIL import Image
+import os
+import psycopg2
+from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 
 from firebase_handler import write_humidity, write_temperature, fetch_humidity, fetch_temperature
@@ -7,11 +9,34 @@ from model_prediction import add_item_to_refrigerator
 
 app = Flask(__name__)
 
+load_dotenv()
+USER = os.getenv('user')
+PASSWORD = os.getenv('password')
+CLUSTER_NAME = os.getenv('cluster_name')
+PROJECT_ID = os.getenv('project_id')
+CREDENTIALS_FILE_PATH = os.getenv('credentials_file_path')
 
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
     return 'Hello World!'
+
+@app.route('/test')
+def test_db():
+    conn = psycopg2.connect(f"postgresql://{USER}:{PASSWORD}@{CLUSTER_NAME}.gcp-us-east1.cockroachlabs.cloud:26257/defaultdb", sslmode='verify-full', sslrootcert="./ruby-mummy-ca.crt")
+    res = ''
+    with conn.cursor() as cur:
+        cur.execute("SELECT now()")
+        res = cur.fetchall()
+        conn.commit()
+    return jsonify({'message': res})
+
+@app.route('/webhook', methods=['POST'])
+def webhook():
+    data = request.get_json(silent=True)
+    print(data)
+    reply = {'fulfillmentText': 'Ok'}
+    return jsonify(reply)
 
 @app.route('/item/image', methods=['POST'])
 def food_item_image():

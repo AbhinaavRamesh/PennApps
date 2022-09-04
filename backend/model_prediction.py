@@ -99,11 +99,9 @@ def add_item_to_refrigerator(image):
             location="us-central1",
             image=image
     )
-    print(prediction)
     if not prediction: return
     label, confidence = prediction # maintain a history table and insert conf value
-    weight = 250 # in grams
-    insert_refrigerator_item(label, weight)
+    insert_refrigerator_item(label)
         
 
 
