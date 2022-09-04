@@ -5,13 +5,14 @@ from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from scipy.signal import find_peaks
 import numpy as np
+from flask_cors import CORS
 
 from firebase_handler import write_humidity, write_temperature, fetch_humidity, fetch_temperature,fetchCarbonEquivalence
 from model_prediction import add_item_to_refrigerator
 
-
-
 app = Flask(__name__)
+CORS(app)
+CORS(app, resources={r"*": {"origins": ["*", "http://localhost:3000"]}})
 
 load_dotenv()
 USER = os.getenv('user')
