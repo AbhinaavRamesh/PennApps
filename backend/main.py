@@ -29,19 +29,20 @@ def disp_Power(temps):
 
 def CalculatePower(temps):
     baseline_power = 500 # https://www.solarreviews.com/blog/refrigerator-how-many-watts
-    peak_power = 1250 # https://www.solarreviews.com/blog/refrigerator-how-many-watts
+    peak_power = 1500 # https://www.solarreviews.com/blog/refrigerator-how-many-watts
     price_pKWH = 0.129 # https://www.globalpetrolprices.com/electricity_prices/
     avg_cfp= 0.85 #Pounds https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
     
-    pks=list(find_peaks(temps))
+    pks=list(find_peaks(temps)[0])
+    print(pks)
     n_dips=len(pks)
     min_temp,peak_temp=min(temps),max(temps)
     powers_ls=[baseline_power+((peak_power-baseline_power)*(it_temp-min_temp)/(peak_temp-min_temp)) for it_temp in temps]
     increase_power=[powers_ls[i] for i in pks]
     # Calculate Monthly Cost with Skewed offset on high load time periods
-    avgPowerConsumed=(0.001*500*sum(powers_ls)/len(powers_ls))  + (0.001*0.4*(1250+500)*sum(increase_power)/len(increase_power))  #in 15 Minutes
-    costElectricity = 4 * 18 * 7 * 30 * price_pKWH * (avgPowerConsumed)
-    avgWeeklyCarbonDioxide = 4 * 18 * 7 * avg_cfp * (avgPowerConsumed)
+    avgPowerConsumed=(0.001*sum(powers_ls)/len(powers_ls))  + (0.001*0.7*sum(increase_power)/len(increase_power))  #in 15 Minutes
+    costElectricity = 4 * 18 * 7 * 30 * price_pKWH * (avgPowerConsumed/3600)
+    avgWeeklyCarbonDioxide = 4 * 18 * 7 * avg_cfp * (avgPowerConsumed/3600)
 
     return n_dips, costElectricity, avgWeeklyCarbonDioxide
 
@@ -94,7 +95,7 @@ def fridge_metrics():
     if request.method == 'GET':
         return {'temperature': sorted(fetch_temperature(), key=lambda x: x[0]), 'humidity': sorted(fetch_humidity(), key=lambda x: x[0])}, 200
 
-@app_route('/refridgerator/populateLabels',methods=['POST','GET'])
+@app.route('/refridgerator/populateLabels',methods=['POST','GET'])
 def populateLabels_FridgeMetrics():
     if request.method=='GET':
         try:
@@ -108,7 +109,7 @@ def populateLabels_FridgeMetrics():
         num_events,estMonthCos,est_WeeklyCarbonFootPrint=CalculatePower([i[1] for i in temp_values])
         return {'avgTemperature':avg_temp , 'avgHumidity' : avg_humidity, 'numEvents': num_events, 'monthlyCostElectricity': estMonthCos, 'weeklyCarbonDiOxide':est_WeeklyCarbonFootPrint}, 200
 
-@app_route('/refridgerator/populateGraphs',methods=['POST','GET'])
+@app.route('/refridgerator/populateGraphs',methods=['POST','GET'])
 def populateGraphs_FridgeMetrics():
     if request.method=='GET':
         try:
