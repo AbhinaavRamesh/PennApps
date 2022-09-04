@@ -1,8 +1,16 @@
+from weakref import ref
 import firebase_admin
 from firebase_admin import firestore
 from datetime import datetime
 
 from config import prediction_mapping
+from datetime import datetime
+import time
+
+def offsetDaysCurrent(utc_datetime):
+    now_timestamp = time.time()
+    offset = datetime.fromtimestamp(now_timestamp) - datetime.utcfromtimestamp(now_timestamp)
+    return offset.days
 
 app = firebase_admin.initialize_app()
 db = firestore.client()
@@ -29,6 +37,11 @@ def fetch_food() -> dict:
     docs = temp_ref.stream()
     return docs
 
+def fetch_refrigerator() -> dict:
+    fridg_ref = db.collection(REFRIGERATOR_ITEMS_COLLECTION)
+    docs = fridg_ref.stream()
+    return docs
+
 def fetch_food_id(food_name: str):
     food_dict = { el.id: el.to_dict() for el in fetch_food() } 
     if food_name not in food_dict: return -1
@@ -53,6 +66,31 @@ def insert_refrigerator_item(label: str):
     doc_ref = db.collection(REFRIGERATOR_ITEMS_COLLECTION).document(timestamp)
     label_mapping = prediction_mapping[label]['name']
     doc_ref.set({u'label': label_mapping, 'food_id': fetch_food_id(label_mapping), 'weight': prediction_mapping[label]['weight'], 'item_count': 1}) # include food id and time
+
+def write_expirationDay(expDay: int):
+    doc_ref = db.collection(FOOD_COLLECTION).document(timestamp)
+    doc_ref.set({u'value': expDay})
+
+def fetchCarbonEquivalence(food_name: str):
+    food_dict = { el.id: el.to_dict() for el in fetch_food() } 
+    if food_name not in food_dict: return -1
+    food_id = food_dict[food_name]["food_id"]
+    emissions_category_description = food_dict[food_name]["emissions_category_description"]
+    emissions_category_letter = food_dict[food_name]["emissions_category_letter"]
+    emissions_per_serving = food_dict[food_name]["emissions_per_serving"]
+    expiration_dayspan = food_dict[food_name]["expiration_day"]
+    food_image_url = food_dict[food_name]["food_image_url"]
+    preservation_methods = food_dict[food_name]["preservation_methods"]
+    refrigerator_dict={ el.id: el.to_dict() for el in fetch_refrigerator()}
+    for it in refrigerator_dict:
+        if refrigerator_dict[it]["food_id"]==food_id:
+            offset_days=offsetDaysCurrent(it)
+            if expiration_dayspan+offset_days>0:
+                expiredFlag=True
+
+
+    return food_id
+
 
 if __name__ == '__main__':
     print(fetch_humidity())
