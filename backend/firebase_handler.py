@@ -7,9 +7,9 @@ from config import prediction_mapping
 from datetime import datetime
 import time
 
-def offsetDaysCurrent(utc_datetime):
+def offsetCurrent(utc_datetime):
     now_timestamp = time.time()
-    offset = datetime.fromtimestamp(now_timestamp) - datetime.utcfromtimestamp(now_timestamp)
+    offset = datetime.fromtimestamp(now_timestamp) - datetime.fromtimestamp(utc_datetime)
     return offset.days
 
 app = firebase_admin.initialize_app()
@@ -98,6 +98,9 @@ def fetchCarbonEquivalence(food_name: str):
 
 
     return {}
+
+def deleteDocumentsRefrigerator():
+    db.collection(REFRIGERATOR_ITEMS_COLLECTION).document(u'DC').delete()
 
 
 if __name__ == '__main__':
