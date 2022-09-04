@@ -6,11 +6,13 @@ import { useNavigation } from "@react-navigation/native"
 const FoodBrowserCard = ({ food }) => {
   const navigation = useNavigation()
   return (
-    <Pressable onPress={() => navigation.navigate("ViewFoodScreen", food)}>
+    <Pressable onPress={() => navigation.navigate("Items", 
+    {screen: "ViewFoodScreen", params: {food:food}}
+    )}>
       <View style={styles.container}>
         <Image
           style={{ height: 70, width: 120, borderRadius: 30 }}
-          source={food.imageUrl}
+          source={{uri:food.imageUrl}}
         ></Image>
         <View>
           <Text style={colors.cardText}>{food.name}</Text>

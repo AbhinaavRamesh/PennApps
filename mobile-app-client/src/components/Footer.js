@@ -1,23 +1,84 @@
-import React from "react"
-import { View, Text, StyleSheet, Dimensions } from "react-native"
-import { colors, parameters } from "../global/styles"
-import { Icon } from "@rneui/base"
+import { Button } from "@rneui/base";
+import React from "react";
+import { View, Text, StyleSheet, Dimensions } from "react-native";
+import Icon from "react-native-vector-icons/MaterialCommunityIcons";
+import Icon2 from "react-native-vector-icons/Ionicons";
+import Icon3 from "react-native-vector-icons/MaterialIcons";
+const phoneWidth = Dimensions.get('window').width;
+const RootScreen = ({ navigation }) => {
+  return (
+    <View
+      style={{
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "row",
+        backgroundColor: "yellow",
+        height: 70,
+        paddingHorizontal: 70,
+        justifyContent: "space-between",
+        // width: phoneWidth
+      }}
+    >
+      <View
+        style={{
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Button
+          style={{ paddingHorizontal: 20, marginTop: 10 }}
+          onPress={() => {
+            navigation.navigate("HomeScreen");
+          }}
+          color="transparent"
+        >
+          <Icon name="fridge" size={27} color="black"></Icon>
+        </Button>
+        <Text style={styles.appbarText}>Items</Text>
+      </View>
+      <View
+        style={{
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Button
+          style={{ paddingHorizontal: 20, marginTop: 10 }}
+          onPress={() => {
+            navigation.navigate("FoodAlternativesScreen");
+          }}
+          color="transparent"
+        >
+          <Icon2 name="analytics" size={27} color="black"></Icon2>
+        </Button>
+        <Text style={styles.appbarText}>Analytics</Text>
+      </View>
+      <View
+        style={{
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Button
+          style={{ paddingHorizontal: 20, marginTop: 10 }}
+          onPress={() => {
+            navigation.navigate("FridgeInfoScreen");
+          }}
+          color="transparent"
 
-export default function Footer({ title }) {
-  return <View style={styles.Footer}></View>
-}
+        >
+          <Icon3 name="add-shopping-cart" size={27} color="black"></Icon3>
+        </Button>
+        <Text style={styles.appbarText}>Market</Text>
+      </View>
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
-  Footer: {
-    flexDirection: "row",
-    // height: parameters.FooterHeight,
+  appbarText: {
+    fontSize: 12,
   },
+});
 
-  FooterText: {
-    // color: colors.FooterText,
-    // fontSize: 22,
-    // fontWeight: "bold",
-    // marginLeft: 30,
-    // marginTop: 5,
-  },
-})
+export default RootScreen;

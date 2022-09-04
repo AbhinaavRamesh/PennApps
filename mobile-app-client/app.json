@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "food-sustainability-app",
-    "slug": "food-sustainability-app",
+    "slug": "greenfridge-pennapps",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
