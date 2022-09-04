@@ -5,14 +5,15 @@ from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from scipy.signal import find_peaks
 import numpy as np
-from flask_cors import CORS
-
-from firebase_handler import write_humidity, write_temperature, fetch_humidity, fetch_temperature,fetchCarbonEquivalence
+from twilio.rest import Client
+from datetime import datetime
+import time
+from firebase_handler import write_humidity, write_temperature, fetch_humidity, fetch_temperature,fetchCarbonEquivalence,fetchRecommendations,deleteDocumentsRefrigerator
 from model_prediction import add_item_to_refrigerator
 
+exp_items={}
+
 app = Flask(__name__)
-CORS(app)
-CORS(app, resources={r"*": {"origins": ["*", "http://localhost:3000"]}})
 
 load_dotenv()
 USER = os.getenv('user')
@@ -20,12 +21,37 @@ PASSWORD = os.getenv('password')
 CLUSTER_NAME = os.getenv('cluster_name')
 PROJECT_ID = os.getenv('project_id')
 CREDENTIALS_FILE_PATH = os.getenv('credentials_file_path')
+account_sid = "AC91b945aea28815f67bd00e4e132b9ac2"
+auth_token = "c8f2c5002da0277fcfc72c4d0c3fc0e7"
+client = Client(account_sid, auth_token)
+
+def runTwillioChat():
+    foodStr = ""
+    hints = ""
+    if len(list(exp_items.keys())) == 1:
+        foodStr += list(exp_items.keys())[0]
+    else:
+        for i in exp_items: 
+            foodStr += f"{i}, "
+            hints += f"{exp_items[i]}, "
+        foodStr += f"and {i}"
+        hints += f"{exp_items[i]}. "
+    message = client.messages \
+                    .create(
+                        body=f"\nMorning Jane! Just a small reminder that your {foodStr} might go bad today so remember to use or preserve it soon!\n\nHint: {hints}\n\nLove, your GreenFridge <3\n"+str(datetime.fromtimestamp(time.time())),
+                        from_='+15737874445',
+                        to='+14154167799'
+                    )
+
+    print(message.sid,f"\nMorning Jane! Just a small reminder that your {foodStr} might go bad today so remember to use or preserve it soon!\n\nHint: {hints}\n\nLove, your GreenFridge <3\n\n"+str(datetime.fromtimestamp(time.time())))
+    exp_items.clear()
+
 
 def disp_Power(temps):
     baseline_power=500 # https://www.solarreviews.com/blog/refrigerator-how-many-watts
     peak_power= 1250 #https://www.solarreviews.com/blog/refrigerator-how-many-watts
     min_temp,peak_temp=min(temps),max(temps)
-    power_ls=[baseline_power+((peak_power-baseline_power)*(it_temp-min_temp)/(peak_temp-min_temp)) for it_temp in temps]
+    power_ls=[np.round(baseline_power+((peak_power-baseline_power)*(it_temp-min_temp)/(peak_temp-min_temp)),3) for it_temp in temps]
     return power_ls
 
 def CalculatePower(temps):
@@ -38,14 +64,14 @@ def CalculatePower(temps):
     print(pks)
     n_dips=len(pks)
     min_temp,peak_temp=min(temps),max(temps)
-    powers_ls=[baseline_power+((peak_power-baseline_power)*(it_temp-min_temp)/(peak_temp-min_temp)) for it_temp in temps]
+    powers_ls=[np.round(baseline_power+((peak_power-baseline_power)*(it_temp-min_temp)/(peak_temp-min_temp)),3) for it_temp in temps]
     increase_power=[powers_ls[i] for i in pks]
     # Calculate Monthly Cost with Skewed offset on high load time periods
     avgPowerConsumed=(0.001*sum(powers_ls)/len(powers_ls))  + (0.001*0.7*sum(increase_power)/len(increase_power))  #in 15 Minutes
     costElectricity = 4 * 18 * 7 * 30 * price_pKWH * (avgPowerConsumed/3600)
     avgWeeklyCarbonDioxide = 4 * 18 * 7 * avg_cfp * (avgPowerConsumed/3600)
 
-    return n_dips, costElectricity, avgWeeklyCarbonDioxide
+    return int(n_dips), np.round(costElectricity,2), np.round(avgWeeklyCarbonDioxide,3)
 
 
 
@@ -132,10 +158,35 @@ def fridge_carbonEquivalence():
         except Exception as e:
             print(f'Exception occurred: {str(e)}')
             return {'message': 'INTERNAL_SERVER_ERROR'}, 500
-        return fetchCarbonEquivalence(foodName), 200
-    if request.method == 'GET':
-        return {'temperature': sorted(fetch_temperature(), key=lambda x: x[0]), 'humidity': sorted(fetch_humidity(), key=lambda x: x[0])}, 200
+        result=fetchCarbonEquivalence(foodName)
+        if result['expiredFlag']==True:
+            exp_items[result['food_name']]=result['preservation_methods']
+            runTwillioChat()
+        return result, 200
+
+@app.route('/refrigerator/recommend',methods=['GET'])
+def populate_Recommendations():
+    if request.method=='GET':
+        try:
+            recommends=fetchRecommendations()
+        except:
+            recommends=fetchRecommendations()
         
+        return recommends,200
+
+@app.route('/refrigerator/cleanSlateProtocol',methods=['GET'])
+def clear_fridge():
+    if request.method=='GET':
+        try:
+            deleteDocumentsRefrigerator()
+        except:
+            print("Tried Deleting...")
+
+        
+
+
+
+       
 
 
 
