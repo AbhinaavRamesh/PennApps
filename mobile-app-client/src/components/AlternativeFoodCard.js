@@ -20,7 +20,6 @@ const AlternativeFoodCard = ({ food, screenWidth }) => {
         <View style={{ flex: 1, flexDirection: "row" }}>
           <View style={styles.carbonView}>
           <Icon2
-          style={{ marginLeft: 20, marginTop: 9 }}
           name="molecule-co2"
           size={30}
           color="grey"
