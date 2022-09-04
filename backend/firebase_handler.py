@@ -86,7 +86,16 @@ def fetchCarbonEquivalence(food_name: str):
         if refrigerator_dict[it]["food_id"]==food_id:
             offset_days=offsetDaysCurrent(it)
             if expiration_dayspan+offset_days>0:
+                expiredFlag=False
+                daysToExpiry=expiration_dayspan+offset_days
+            else:
                 expiredFlag=True
+                daysToExpiry=-1
+            foodWeight=refrigerator_dict[it]["weight"]
+            carbonEquivalence=emissions_per_serving*foodWeight*0.0022 #In Pounds
+            break
+    return {"emissions_category_description":emissions_category_description,"emissions_category_letter":emissions_category_letter, "emissions_per_serving":emissions_per_serving, "food_image_url":food_image_url, "preservation_methods":preservation_methods, "expiredFlag":expiredFlag,"daysToExpiry":daysToExpiry,"carbonEquivalence":carbonEquivalence }
+            
 
 
     return food_id

@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 from scipy.signal import find_peaks
 import numpy as np
 
-from firebase_handler import write_humidity, write_temperature, fetch_humidity, fetch_temperature
+from firebase_handler import write_humidity, write_temperature, fetch_humidity, fetch_temperature,fetchCarbonEquivalence
 from model_prediction import add_item_to_refrigerator
 
 
@@ -122,18 +122,15 @@ def populateGraphs_FridgeMetrics():
         return {'graphls':[[a,b,c] for a,b,c in zip(time_ls,temp_values,power_ls)]},200
 
 @app.route('/refrigerator/carbonEquivalence', methods=['POST'])
-def fridge_metrics():
+def fridge_carbonEquivalence():
     if request.method == 'POST':
         try:
             data = request.json
             foodName = data.get('foodName')
-            if temp: write_temperature(temp)
-            humidity = data.get('humidity')
-            if humidity: write_humidity(humidity)
         except Exception as e:
             print(f'Exception occurred: {str(e)}')
             return {'message': 'INTERNAL_SERVER_ERROR'}, 500
-        return {'message': 'Data saved successfully'}, 200
+        return fetchCarbonEquivalence(foodName), 200
     if request.method == 'GET':
         return {'temperature': sorted(fetch_temperature(), key=lambda x: x[0]), 'humidity': sorted(fetch_humidity(), key=lambda x: x[0])}, 200
         
