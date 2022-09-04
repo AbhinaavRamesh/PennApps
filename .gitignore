@@ -1,0 +1,5 @@
+python-docs-samples/
+.pytest_cache/
+backend/.pytest_cache/
+backend/.env
+frontend/node_modules/
