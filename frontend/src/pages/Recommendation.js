@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Card, Button } from "react-bootstrap";
 
 function Recommendation() {
   return (
@@ -19,7 +20,20 @@ function Recommendation() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <h2>Recommendation</h2>
+      <Card style={{ width: '22rem', margin:"auto", marginTop:"1rem" }}>
+      <Card.Img style={{height: "15rem", width:"19rem", margin:"auto", marginTop:"1rem"}} variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Text style={{fontWeight:"bold", fontSize:23}}>
+          Name
+        </Card.Text>
+        <div style={{display:"flex", flexDirection:"row"}}>
+        <Card.Text>
+          Some quick example d
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+        </div>
+      </Card.Body>
+    </Card>
     </div>
   );
 }
